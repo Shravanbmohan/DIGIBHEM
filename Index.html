@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Media.css">
+</head>
+<body>
+  <div class="main-container">
+    <nav id="desktop-nav">
+        <div class ="logo">Shravan B Mohan</div>
+        <div>
+            <ul class="nav-links">
+            <li><a href ="#ABOUT">ABOUT</a></li>
+            <li><a href ="#PROJECTS">PROJECTS</a></li>
+            <li><a href ="#CONTACT">CONTACT</a></li>
+        </ul>
+     </div>
+    </nav>
+    <nav id = "hamburger-nav">
+        <div class ="logo">Shravan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()"> 
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href ="#ABOUT" onclick="toggleMenu()">ABOUT</a></li>
+            <li><a href ="#PROJECTS" onclick="toggleMenu()">PROJECTS</a></li>
+            <li><a href ="#CONTACT" onclick="toggleMenu()">CONTACT</a></li>
+
+
+        </div>
+    </nav>
+    <section id="my-profile">
+        <div class="section__pic-container">
+
+            <img src="./project assets/proff.PNG" alt="shravan profile pic">
+        </div>
+        <div class="section__text">
+            <h2 class="title">SHRAVAN B MOHAN </h2>
+            <p class="section__text__p2">Developer</p>
+            <div class="button-container">
+                <button class="btn btn-color-2" onclick="window.open('./project assets/MY RES.pdf')">DOWNLOAD CV</button>
+                <button class="btn btn-color-1" onclick="location.href ='./#CONTACT'">CONTACT</button>
+            </div>
+            <div id="my-socials">
+                <img src="./project assets/linkedin.PNG" alt="linkedin profile" class="icon-class" onclick="window.open('https://www.linkedin.com/in/shravan-b-mohan-a25684215/', '_blank')">
+                <img src="./project assets/github.png" alt="linkedin profile" class="icon-class" onclick="window.open('https://github.com/Shravanbmohan', '_blank')">
+              </div>
+        </div>  
+    </section>
+</section>
+<section id="ABOUT">
+  <h1 class="title">About Me</h1>
+  <div class="section-container">
+
+  
+
+    <div class="section__pic-container">
+
+      <img
+        src="./project assets/about.jpg"
+        alt="Profile picture"
+        class="about-pic"
+      />
+        
+      
+      <!-- <div class="about-details-container">
+        <div class="about-containers">
+         
+          <div class="details-container">
+            <img id="edu-tag"
+              src="./project assets/edu.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Education</h3>
+            <p>BCA -  Bachelors Degree <br />MCA - Masters Degree</p>
+          </div>
+        </div>
+        
+      </div> -->
+      
+      <div class="text-container">
+
+        <div class="about-details-container">
+            <div class="about-containers">
+             
+              <div class="details-container">
+                <img id="edu-tag"
+                  src="./project assets/edu.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>BCA -  Bachelors Degree <br />MCA - Masters Degree</p>
+              </div>
+            </div>
+            
+          </div>
+
+      
+        <p id="para-id">
+            I'm shravan , a 23 year old MCA student from Bengaluru , India. My portfolio showcases projects that I've done during my academic journey. I'm eager to collaborate and learn from experienced professionals in the industry. When I'm not coding, you can find me exploring new tech trends, sketching UI designs, or enjoying a good book. I'm excited to bring fresh ideas and enthusiasm to your team. Let's build something amazing together!
+          </p>
+    </div>
+    <img 
+                  src="./project assets/logo.png"
+                  alt="logo"
+                  class="logo-class"
+                />
+
+    </div>
+
+
+
+  </div>
+ 
+</section>
+<section id="experience">
+
+ 
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Technical Proficiency</h2>
+        <div class="article-container">
+          <article>
+            <img
+              src="./project assets/html.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>HTML</h3>
+            </div>
+          </article>
+          <article>
+            <div class="icon-container">
+                <img src="./project assets/css.png" alt="Experience icon" class="icon" />
+                <h3>CSS</h3>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./project assets/react.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div >
+                <h3 id="react-pic">REACT</h3>
+                <p>Basic</p>
+              </div>
+          </article>
+          <article>
+            <img
+              src="./project assets/js.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>JavaScript</h3>
+              <p id=" inter">intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img id="sql-icon"
+              src="./project assets/mysql.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+                <h3>MY SQL</h3>
+              </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</section>
+<section id="PROJECTS">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container-color-container">
+          <div class="article-container1">
+            <img
+              src="./project assets/project 1.jpg"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title-project-title1">RESPONSIVE PORTFOLIO</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+          
+          </div>
+        </div>
+        <div class="details-container-color-container">
+          <div class="article-container1">
+            <img
+              src="./project assets/project 2.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title-project-title">HRMS PLATFORM</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Shravanbmohan/HRMS'"
+            >
+              Github
+            </button>
+           
+          </div>
+        </div>
+        <div class="details-container-color-container">
+          <div class="article-container1">
+            <img
+              src="./project assets/project 3.jpg"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title-project-title">JS MINI PROJECTS</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./project assets/arrow down.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#CONTACT'"
+    />
+  </section>
+  <section id="CONTACT">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./project assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:Shravan.b.mohan38@gmail.com">Shravan.b.mohan38@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./project assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com/in/shravan-b-mohan-a25684215/" >LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+    </nav>
+    <p> 2024 shravanbmohan.</p>
+  </footer>
+   <script src="Main Script.Js"></script> 
+  </div>
+</body>
+</html>
